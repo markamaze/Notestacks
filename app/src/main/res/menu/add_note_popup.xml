@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Add to top"
+        android:onClick="addNoteToTop"/>
+
+    <item
+        android:title="Add before current"
+        android:onClick="addPreviousNote"/>
+
+    <item
+        android:title="Add following current"
+        android:onClick="addNextNote"/>
+
+    <item
+        android:title="Add to bottom"
+        android:onClick="addNoteToBottom"/>
+
+</menu>
